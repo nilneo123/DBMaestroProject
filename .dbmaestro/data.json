@@ -10,19 +10,7 @@
             "EnvironmentId": "e339d642-98ce-4c5d-bf97-44ccddd586cc",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "a43791d0-1573-42d5-a139-304422f062b0",
-                "DatabaseAliasName": "SISB_Project",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/nilneo123/DBMaestroNil.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -47,18 +35,7 @@
       "UserData": [
         {
           "UserName": "SteamSuvo25",
-          "DatabasesData": [
-            {
-              "DatabaseId": "a43791d0-1573-42d5-a139-304422f062b0",
-              "DatabaseAliasName": "SISB_Project",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": null,
-              "RepositoryCredentials": {
-                "UserName": "SteamSuvo25",
-                "Password": "xnsAOKSfNuc1/0aHjsofMj7NNvG4MUv91HZqXaWYE2OPfPmgF2BIlCsOpWAqMqQ7"
-              }
-            }
-          ]
+          "DatabasesData": []
         },
         {
           "UserName": "#ALL",
