@@ -186,7 +186,19 @@
             "EnvironmentId": "92700b77-0d1e-449d-9fe0-bca799379beb",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "56434649-5afb-4d79-8361-d376b0714398",
+                "DatabaseAliasName": "Testproject1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/SteamSuvo25/DBMaestro-test1.git",
+                  "RemoteBranchName": "0.0.1",
+                  "LocalBranchName": "0.0.1"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -211,7 +223,42 @@
       "UserData": [
         {
           "UserName": "SteamSuvo25",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "56434649-5afb-4d79-8361-d376b0714398",
+              "DatabaseAliasName": "Testproject1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "SteamSuvo25",
+                "Password": "By2+Y2CsofptluDtqOW/anW5GidwtzqTHt5R5Gi3Hb79t9G1s/gxsPWF26ZX9yQ8"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "56434649-5afb-4d79-8361-d376b0714398",
+              "DatabaseAliasName": "Testproject1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "0.0.1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "dopx-berke",
+                    "authType": "SqlAuthentication",
+                    "userName": "sisbl-user1",
+                    "dbName": "SISB_DB1",
+                    "Password": "+9pOSgbdtAPpP1c4lKrVfA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
