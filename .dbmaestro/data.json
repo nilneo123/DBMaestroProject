@@ -181,7 +181,26 @@
         "ProjectId": "29c8cf42-b22c-4bf9-a8f2-c84f87672d41",
         "ProjectName": "TestProjectName1",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "92700b77-0d1e-449d-9fe0-bca799379beb",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "503a9d05-59af-477e-abca-bc8de470ad80",
+                "DatabaseAliasName": "Testproject1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/nilneo123/lastTest.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -204,7 +223,42 @@
       "UserData": [
         {
           "UserName": "SteamSuvo25",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "503a9d05-59af-477e-abca-bc8de470ad80",
+              "DatabaseAliasName": "Testproject1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "SteamSuvo25",
+                "Password": "By2+Y2CsofptluDtqOW/anW5GidwtzqTHt5R5Gi3Hb79t9G1s/gxsPWF26ZX9yQ8"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "503a9d05-59af-477e-abca-bc8de470ad80",
+              "DatabaseAliasName": "Testproject1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "dopx-berke",
+                    "authType": "SqlAuthentication",
+                    "userName": "sisbl-user1",
+                    "dbName": "SISB_DB1",
+                    "Password": "+9pOSgbdtAPpP1c4lKrVfA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
