@@ -98,7 +98,19 @@
             "EnvironmentId": "2fb6dfa8-177a-49f5-9fec-d8507352524e",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": []
+            "Databases": [
+              {
+                "DatabaseId": "5df45e4f-3846-4f92-b952-17fd3e269a7f",
+                "DatabaseAliasName": "tstProh",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/nilneo123/DBMaestroNil.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
           }
         ],
         "SourceControlPathType": 0,
@@ -123,7 +135,42 @@
       "UserData": [
         {
           "UserName": "SteamSuvo25",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "5df45e4f-3846-4f92-b952-17fd3e269a7f",
+              "DatabaseAliasName": "tstProh",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "SteamSuvo25",
+                "Password": "xnsAOKSfNuc1/0aHjsofMj7NNvG4MUv91HZqXaWYE2OPfPmgF2BIlCsOpWAqMqQ7"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "5df45e4f-3846-4f92-b952-17fd3e269a7f",
+              "DatabaseAliasName": "tstProh",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "dopx-berke",
+                    "authType": "SqlAuthentication",
+                    "userName": "sisbl-user2",
+                    "dbName": "SISB_DB3",
+                    "Password": "4fl8CcapNZ0cErgsOvqo4Q=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
