@@ -186,19 +186,7 @@
             "EnvironmentId": "92700b77-0d1e-449d-9fe0-bca799379beb",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "503a9d05-59af-477e-abca-bc8de470ad80",
-                "DatabaseAliasName": "Testproject1",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/nilneo123/lastTest.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -223,18 +211,7 @@
       "UserData": [
         {
           "UserName": "SteamSuvo25",
-          "DatabasesData": [
-            {
-              "DatabaseId": "503a9d05-59af-477e-abca-bc8de470ad80",
-              "DatabaseAliasName": "Testproject1",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": null,
-              "RepositoryCredentials": {
-                "UserName": "SteamSuvo25",
-                "Password": "By2+Y2CsofptluDtqOW/anW5GidwtzqTHt5R5Gi3Hb79t9G1s/gxsPWF26ZX9yQ8"
-              }
-            }
-          ]
+          "DatabasesData": []
         },
         {
           "UserName": "#ALL",
