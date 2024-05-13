@@ -269,7 +269,26 @@
         "ProjectId": "f343630f-e165-48e9-82f9-3947fc6b81a4",
         "ProjectName": "testR2",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "09e25fc7-43e9-40c6-8bd7-98def7e51fa1",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "a556ea68-6509-45a2-a2c3-a69b799e0db5",
+                "DatabaseAliasName": "testR2",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/SteamSuvo25/DBMaestro-test2.git",
+                  "RemoteBranchName": "0.0.1",
+                  "LocalBranchName": "0.0.1"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -292,7 +311,42 @@
       "UserData": [
         {
           "UserName": "SteamSuvo25",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "a556ea68-6509-45a2-a2c3-a69b799e0db5",
+              "DatabaseAliasName": "testR2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "SteamSuvo25",
+                "Password": "By2+Y2CsofptluDtqOW/anW5GidwtzqTHt5R5Gi3Hb79t9G1s/gxsPWF26ZX9yQ8"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "a556ea68-6509-45a2-a2c3-a69b799e0db5",
+              "DatabaseAliasName": "testR2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "0.0.1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "dopx-berke",
+                    "authType": "SqlAuthentication",
+                    "userName": "sisbl-user1",
+                    "dbName": "SISB_DB4",
+                    "Password": "+9pOSgbdtAPpP1c4lKrVfA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
