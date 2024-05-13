@@ -87,6 +87,47 @@
       ],
       "DatabasesStaticDataObjects": null,
       "DatabasesScopeObjects": null
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "8fb2d3e8-75b5-40e3-8db8-95d88b504d57",
+        "ProjectName": "TestprojectName",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "2fb6dfa8-177a-49f5-9fec-d8507352524e",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": []
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {}
+          },
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "NumberOfDaysBuildByTaskIsRelevant": 30,
+          "PreventCommitObjectWithConflict": false,
+          "SaveObjectScopeAtProjectLevel": null,
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "SteamSuvo25",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null,
+      "DatabasesScopeObjects": null
     }
   ],
   "GlobalConfigurations": null,
